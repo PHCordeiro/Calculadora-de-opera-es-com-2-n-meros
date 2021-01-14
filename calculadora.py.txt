@@ -1,0 +1,31 @@
+def soma(numero1, numero2): 
+    soma = numero1 + numero2
+    return soma
+
+def subtracao(numero1, numero2): 
+    subtracao = numero1 - numero2
+    return subtracao
+
+def divisao(numero1, numero2): 
+    divisao = numero1 / numero2
+    return divisao
+
+def multiplicacao(numero1, numero2): 
+    multiplicacao = numero1 * numero2
+    return multiplicacao 
+    
+def resultado(soma, subtracao, divisao, multiplicacao):
+    print(f'A soma de seus números deu {soma}')
+    print(f'A subtração de seus números deu {subtracao}')
+    print(f'A divisão de seus números deu {divisao}')
+    print(f'A multiplicação de seus números deu {multiplicacao}')
+    
+numero1 = 5
+numero2 = 5
+
+soma = soma(numero1, numero2)
+subtracao = subtracao(numero1, numero2)
+divisao = divisao(numero1, numero2)
+multiplicacao = multiplicacao(numero1, numero2)
+
+resultado(soma, subtracao, divisao, multiplicacao)
